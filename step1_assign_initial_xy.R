@@ -3,8 +3,8 @@ Kalamos_tw$x <- 0
 Kalamos_tw$y <- 0
 Kalamos_tw$precision <- 0
 Kalamos_tw$comment <- NA
-im <- 1
-ig <- 1
+#im <- 1
+#ig <- 1
 View(Kalamos_tw[1:10, ])
 #Kalamos_tw 1:400
 cat("\014")
