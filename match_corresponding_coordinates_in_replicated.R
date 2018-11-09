@@ -10,10 +10,10 @@ Mandra_tw.dec$textnew <- Mandra_tw.dec$Text
 Mandra_tw.dec$lastmatch <- NA
 Mandra_tw.dec$lastmatch <- as.character(Mandra_tw.dec$lastmatch)
 Mandra_tw.dec$textnew <- as.character(Mandra_tw.dec$Text)
-im <- 1
+#im <- 1
 Mandra_tw.dec$deleted <- 0
-g <- 1
-d <- 1
+#g <- 1
+#d <- 1
 View(Mandra_tw.dec[1:10, ])
 
 View(geolocations[1:10, ])
@@ -90,6 +90,7 @@ for(im in 401:800){
   im <- im + 1
   d <- 1
 }      
+#the whole procedure is repeated every 400 tweets in order to avoid various memory issues that occured in an old amd64 athlon 1600+
 #assign the xy values and export the file as csv
 cat("\014")
 for(im in 401:800){
